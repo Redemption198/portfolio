@@ -27,7 +27,7 @@ const config = useRuntimeConfig();
           class="flex h-full w-full flex-col gap-4 rounded-2xl bg-slate-800 p-4 xl:m-8 xl:flex-row"
         >
           <img
-            :src="data.thumbnail_url"
+            :src="config.app.baseURL + data.thumbnail_url"
             class="aspect-video h-auto rounded-lg xl:w-2/3"
             :alt="data.title"
           />
@@ -59,7 +59,7 @@ const config = useRuntimeConfig();
               >
                 <img
                   v-if="lib.logo"
-                  :src="config.app.baseURL + lib.logo"
+                  :src="lib.logo"
                   class="w-24"
                   :alt="lib.name"
                 />
