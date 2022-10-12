@@ -40,7 +40,7 @@ const config = useRuntimeConfig();
 
               <img
                 :src="config.app.baseURL + project.thumbnail_url"
-                class="h-52 w-96"
+                class="aspect-video h-52 w-96"
                 :alt="project.title"
               />
             </div>
