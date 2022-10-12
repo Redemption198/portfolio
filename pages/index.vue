@@ -17,10 +17,7 @@ useHead({
       </p>
 
       <div class="flex items-center justify-center gap-x-4 text-slate-100">
-        <a
-          href="https://www.linkedin.com/in/jacopo-pinna-127a9723b/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/jacopo-pinna" target="_blank">
           <Icon name="simple-icons:linkedin" class="h-8 w-8" />
         </a>
         <a href="https://github.com/Redemption198" target="_blank">
