@@ -5,7 +5,7 @@ const { data } = await useAsyncData(`/projects/${route.params.slug}`, () =>
   queryContent(`/projects/${route.params.slug}`).findOne()
 );
 
-const config = useAppConfig();
+const config = useRuntimeConfig();
 </script>
 
 <template>

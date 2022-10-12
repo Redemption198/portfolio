@@ -1,5 +1,5 @@
 <script setup>
-const config = useAppConfig();
+const config = useRuntimeConfig();
 </script>
 
 <template>
