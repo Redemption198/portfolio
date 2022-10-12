@@ -2,7 +2,7 @@
 title: Tesla Homepage
 description: Static Tesla Homepage built for training
 thumbnail_title: Tesla
-thumbnail_url: '/nuxt-tesla-thumbnail.png'
+thumbnail_url: 'nuxt-tesla-thumbnail.png'
 repository_url: https://github.com/Redemption198/nuxt-tesla
 demo_url: https://redemption198.github.io/tesla
 builtWithLibs: [

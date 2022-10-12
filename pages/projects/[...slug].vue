@@ -4,6 +4,8 @@ const route = useRoute();
 const { data } = await useAsyncData(`/projects/${route.params.slug}`, () =>
   queryContent(`/projects/${route.params.slug}`).findOne()
 );
+
+const config = useAppConfig();
 </script>
 
 <template>
@@ -57,7 +59,7 @@ const { data } = await useAsyncData(`/projects/${route.params.slug}`, () =>
               >
                 <img
                   v-if="lib.logo"
-                  :src="lib.logo"
+                  :src="config.app.baseURL + lib.logo"
                   class="w-24"
                   :alt="lib.name"
                 />

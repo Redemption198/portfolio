@@ -1,7 +1,7 @@
 ---
 title: NurNet+
 description: An unofficial client for browsing NurNet data
-thumbnail_url: '/nurnet-large.png'
+thumbnail_url: 'nurnet-large.png'
 repository_url: https://github.com/Redemption198/nurnet-plus
 demo_url: https://redemption198.github.io/nurnet-plus
 builtWithLibs: [

@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+const config = useAppConfig();
+</script>
 
 <template>
   <div class="w-screen bg-slate-900 p-4">
@@ -37,7 +39,7 @@
               </p>
 
               <img
-                :src="project.thumbnail_url"
+                :src="config.app.baseURL + project.thumbnail_url"
                 class="h-52 w-96"
                 :alt="project.title"
               />
