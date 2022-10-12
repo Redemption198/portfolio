@@ -15,6 +15,18 @@ useHead({
       <p class="text-2xl font-semibold text-slate-100 md:text-3xl xl:text-5xl">
         Developer
       </p>
+
+      <div class="flex items-center justify-center gap-x-4 text-slate-100">
+        <a
+          href="https://www.linkedin.com/in/jacopo-pinna-127a9723b/"
+          target="_blank"
+        >
+          <Icon name="simple-icons:linkedin" class="h-8 w-8" />
+        </a>
+        <a href="https://github.com/Redemption198" target="_blank">
+          <Icon name="simple-icons:github" class="h-8 w-8" />
+        </a>
+      </div>
       <p class="text-lg font-semibold text-slate-100 md:text-xl xl:text-3xl">
         🚧 Under Construction 🚧
       </p>

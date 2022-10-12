@@ -20,9 +20,12 @@ useHead({
     >
       <NuxtLink
         to="/"
-        class="flex items-center justify-center gap-x-2 self-start rounded-full bg-slate-800 px-4 py-2.5 text-xl font-bold text-slate-100 transition-transform hover:scale-105 active:scale-95"
-        ><IconArrowRight class="h-6 w-6 rotate-180 fill-slate-100" />
-        Back</NuxtLink
+        class="flex items-center justify-center self-start rounded-full bg-slate-800 px-4 py-2.5 text-xl font-bold text-slate-100 transition-transform hover:scale-105 active:scale-95"
+      >
+        <Icon
+          name="ic:baseline-arrow-back-ios"
+          class="h-6 w-6 text-slate-100"
+        />Back</NuxtLink
       >
       <ContentRenderer :value="data">
         <div
@@ -80,7 +83,11 @@ useHead({
                 target="_blank"
                 :href="data.repository_url"
                 class="overflow-visible rounded-lg text-center font-semibold transition-transform hover:scale-105 active:scale-95"
-                ><GitHubLogo class="h-11 w-11 fill-blue-500" />
+              >
+                <Icon
+                  name="simple-icons:github"
+                  class="h-11 w-11 text-blue-500"
+                />
               </a>
 
               <a
