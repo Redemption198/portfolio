@@ -3,7 +3,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "NUXT_APP_BASE_URL=/portfolio/ nuxt generate",
     "preview": "nuxt preview",
     "lint": "eslint ."
   },
