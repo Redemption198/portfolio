@@ -13,7 +13,7 @@
         🚧 Under Construction 🚧
       </p>
     </div>
-    <div class="w-full">
+    <div class="mx-auto w-full xl:w-5/6">
       <p class="my-4 text-lg font-bold text-slate-100 md:text-2xl xl:text-3xl">
         Sneak Peek
       </p>
@@ -27,7 +27,7 @@
             :to="project._path"
           >
             <div
-              class="relative flex items-center justify-center overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105"
+              class="relative flex items-center justify-center overflow-hidden rounded-2xl transition-transform hover:scale-105 active:scale-95"
             >
               <p
                 v-if="project.thumbnail_title"
