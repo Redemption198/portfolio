@@ -1,5 +1,9 @@
 <script setup>
 const config = useRuntimeConfig();
+
+useHead({
+  title: "Redemption198's Portfolio",
+});
 </script>
 
 <template>

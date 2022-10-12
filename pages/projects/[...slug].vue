@@ -1,11 +1,14 @@
 <script setup>
 const route = useRoute();
+const config = useRuntimeConfig();
 
 const { data } = await useAsyncData(`/projects/${route.params.slug}`, () =>
   queryContent(`/projects/${route.params.slug}`).findOne()
 );
 
-const config = useRuntimeConfig();
+useHead({
+  title: `Project - ${data.value.title}`,
+});
 </script>
 
 <template>
