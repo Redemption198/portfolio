@@ -1,6 +1,6 @@
 <script setup>
+import { Starport } from "vue-starport";
 const route = useRoute();
-const config = useRuntimeConfig();
 
 const { data } = await useAsyncData(`/projects/${route.params.slug}`, () =>
   queryContent(`/projects/${route.params.slug}`).findOne()
@@ -27,17 +27,20 @@ useHead({
           class="h-6 w-6 text-slate-100"
         />Back</NuxtLink
       >
+
       <ContentRenderer :value="data">
         <div
-          fssfasff
           class="flex h-full w-full flex-col gap-4 rounded-2xl bg-slate-800 p-4 xl:m-8 xl:flex-row"
         >
-          <img
-            :src="config.app.baseURL + data.thumbnail_url"
-            class="aspect-video h-auto rounded-lg xl:w-2/3"
-            :alt="data.title"
-          />
-
+          <Starport
+            :port="data._path"
+            class="min-h-[50vh] transition-all duration-200 xl:w-2/3"
+          >
+            <TheImage
+              :thumbnail-url="data.thumbnail_url"
+              :thumbnail-title="data.title"
+            />
+          </Starport>
           <div class="flex flex-col justify-start xl:w-1/2">
             <p class="text-3xl font-bold text-slate-100">{{ data.title }}</p>
             <p class="text-xl font-bold text-slate-200">

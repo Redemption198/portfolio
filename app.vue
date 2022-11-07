@@ -1,3 +1,9 @@
+<script setup>
+import { StarportCarrier } from "vue-starport";
+</script>
+
 <template>
-  <NuxtPage />
+  <StarportCarrier>
+    <NuxtPage />
+  </StarportCarrier>
 </template>

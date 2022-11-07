@@ -1,5 +1,5 @@
 <script setup>
-const config = useRuntimeConfig();
+import { Starport } from "vue-starport";
 
 useHead({
   title: "Redemption198's Portfolio",
@@ -47,15 +47,17 @@ useHead({
               <p
                 v-if="project.thumbnail_title"
                 class="absolute text-4xl font-bold text-slate-100 shadow-slate-900 drop-shadow-2xl"
-              >
-                {{ project.thumbnail_title }}
-              </p>
+              ></p>
 
-              <img
-                :src="config.app.baseURL + project.thumbnail_url"
-                class="aspect-video h-52 w-96"
-                :alt="project.title"
-              />
+              <Starport
+                :port="project._path"
+                class="h-52 w-96 transition-all duration-200"
+              >
+                <TheImage
+                  :thumbnail-url="project.thumbnail_url"
+                  :thumbnail-title="project.thumbnail_title"
+                />
+              </Starport>
             </div>
           </NuxtLink>
         </ContentList>
