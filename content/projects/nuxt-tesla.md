@@ -16,10 +16,10 @@ builtWithLibs: [
         site: 'https://vueuse.org/',
         logo: 'https://d33wubrfki0l68.cloudfront.net/2f6479d73bc25170dc532dd42e059166573bf478/61057/favicon.svg',
     },
-
     {
         name: 'Tailwind CSS',
         site: 'https://tailwindcss.com/',
         logo: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg',
-    },]
+    }]
 ---
+Built with Nuxt 3, VueUse and TailwindCSS

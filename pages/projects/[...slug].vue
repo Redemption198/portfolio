@@ -34,7 +34,7 @@ useHead({
         >
           <Starport
             :port="data._path"
-            class="min-h-[50vh] transition-all duration-200 xl:w-2/3"
+            class="min-h-[20vh] transition-all duration-200 xl:min-h-[50vh] xl:w-2/3"
           >
             <TheImage
               :thumbnail-url="data.thumbnail_url"
