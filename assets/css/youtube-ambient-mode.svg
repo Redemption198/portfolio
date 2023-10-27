@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.75"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="youtube-ambient-mode.svg"
+   inkscape:export-filename="../../public/youtube-ambient-mode.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.34832352"
+     inkscape:cx="719.15901"
+     inkscape:cy="529.67999"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid225"
+       dotted="false"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="271.23881"
+       y="247.09257"
+       width="418.71754"
+       height="103.76258"
+       id="rect1667" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient404">
+      <stop
+         style="stop-color:#111111;stop-opacity:1;"
+         offset="0.18125919"
+         id="stop400" />
+      <stop
+         style="stop-color:#110000;stop-opacity:1;"
+         offset="0.58496815"
+         id="stop1910" />
+      <stop
+         style="stop-color:#100000;stop-opacity:1;"
+         offset="0.72874081"
+         id="stop1908" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient404"
+       id="linearGradient406"
+       x1="-9.6588202"
+       y1="-9.2556581"
+       x2="66.045822"
+       y2="64.585991"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+    <rect
+       x="271.2388"
+       y="247.09258"
+       width="418.71753"
+       height="103.76258"
+       id="rect1667-9" />
+    <rect
+       x="271.2388"
+       y="247.09258"
+       width="418.71753"
+       height="103.76258"
+       id="rect1667-6" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background"
+     style="display:inline"
+     transform="scale(7.9375,4.4648437)">
+    <rect
+       style="fill:url(#linearGradient406);fill-opacity:1;stroke-width:0.264583"
+       id="rect386"
+       width="64"
+       height="64"
+       x="0"
+       y="0"
+       inkscape:label="rect386" />
+  </g>
+  <g
+     id="g1882"
+     transform="translate(27.368642,9.1150793)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.94164054,0,0,0.94164054,-194.39085,-122.22903)"
+       id="text1665"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.2957px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;white-space:pre;shape-inside:url(#rect1667);display:inline;fill:#f9f9f9"
+       inkscape:label="text1665"><tspan
+         x="271.23828"
+         y="289.21511"
+         id="tspan5"> Ambient Mode </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.94164054,0,0,0.94164054,-195.69793,-97.386398)"
+       id="text1665-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.2957px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;white-space:pre;shape-inside:url(#rect1667-6);display:inline;fill:#f9f9f9"
+       inkscape:label="text1665"><tspan
+         x="271.23828"
+         y="289.21511"
+         id="tspan7"><tspan
+           style="font-size:17.9828px;font-family:Sans;-inkscape-font-specification:'Sans, Normal'"
+           id="tspan6"> Recreated with Nuxt 3 and TailwindCSS </tspan></tspan></text>
+    <g
+       id="g2"
+       transform="matrix(0.54708339,0,0,0.54708339,135.24227,59.980922)">
+      <g
+         id="g1"
+         transform="matrix(7.9375,0,0,4.4648437,-66.203277,-36.840142)"
+         style="display:inline">
+        <path
+           fill="#ff0000"
+           d="m 20.844867,17.900741 a 1.0726667,1.906963 0 0 0 -0.7552,-1.342637 c -0.6622,-0.321067 -3.327334,-0.321067 -3.327334,-0.321067 0,0 -2.665266,0.0097 -3.327466,0.330785 a 1.0726667,1.906963 0 0 0 -0.7552,1.342697 c -0.2003,2.091733 -0.278,5.279052 0.0055,7.287111 a 1.0726667,1.906963 0 0 0 0.7552,1.342637 c 0.6622,0.321066 3.3274,0.321066 3.3274,0.321066 0,0 2.665166,0 3.327333,-0.321066 a 1.0726667,1.906963 0 0 0 0.755233,-1.342637 c 0.211267,-2.094696 0.276367,-5.28 -0.0055,-7.29683 z"
+           id="path1"
+           style="stroke-width:0.0444444" />
+        <path
+           fill="#ffffff"
+           d="m 15.914033,23.825778 2.210934,-2.276622 -2.210934,-2.276622 z"
+           id="path2"
+           style="stroke-width:0.0444444" />
+      </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.94164054,0,0,0.94164054,-138.16427,-196.61548)"
+         id="text1665-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.2957px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;white-space:pre;shape-inside:url(#rect1667-9);display:inline;fill:#f9f9f9"
+         inkscape:label="text1665"><tspan
+           x="271.23828"
+           y="289.21511"
+           id="tspan8">YouTube</tspan></text>
+    </g>
+  </g>
+</svg>

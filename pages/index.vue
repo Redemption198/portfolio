@@ -24,13 +24,13 @@ useHead({
           <Icon name="simple-icons:github" class="h-8 w-8" />
         </a>
       </div>
-      <p class="text-lg font-semibold text-slate-100 md:text-xl xl:text-3xl">
-        🚧 Under Construction 🚧
-      </p>
+      <a href="https://github.com/Redemption198/portfolio" class="underline font-semibold text-slate-100" target="_blank">
+          Portfolio Source Code
+        </a>
     </div>
     <div class="mx-auto w-full xl:w-5/6">
       <p class="my-4 text-lg font-bold text-slate-100 md:text-2xl xl:text-3xl">
-        Sneak Peek
+        Projects and Experiments
       </p>
       <div
         class="grid place-items-center justify-items-center gap-8 sm:grid-cols-2 xl:grid-cols-4"
@@ -51,11 +51,62 @@ useHead({
 
               <Starport
                 :port="project._path"
-                class="h-52 w-96 transition-all duration-200"
+                class="h-52 w-96 transition-all duration-75"
               >
                 <TheImage
                   :thumbnail-url="project.thumbnail_url"
                   :thumbnail-title="project.thumbnail_title"
+                />
+              </Starport>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink
+            to="/projects/aircam"
+          >
+            <div
+              class="relative flex items-center justify-center overflow-hidden rounded-2xl transition-transform hover:scale-105 active:scale-95"
+            >
+              <Starport
+                port="/projects/aircam"
+                class="h-52 w-96 transition-all duration-75"
+              >
+                <TheImage
+                  thumbnail-url="aircam.png"
+                />
+              </Starport>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink
+            to="/projects/aircam-nuxt3"
+          >
+            <div
+              class="relative flex items-center justify-center overflow-hidden rounded-2xl transition-transform hover:scale-105 active:scale-95"
+            >
+              <Starport
+                port="/projects/aircam-nuxt3"
+                class="h-52 w-96 transition-all duration-75"
+              >
+                <TheImage
+                  thumbnail-url="aircam-nuxt3.png"
+                />
+              </Starport>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink
+            to="/projects/aircam-tv"
+          >
+            <div
+              class="relative flex items-center justify-center overflow-hidden rounded-2xl transition-transform hover:scale-105 active:scale-95"
+            >
+              <Starport
+                port="/projects/aircam-tv"
+                class="h-52 w-96 transition-all duration-75"
+              >
+                <TheImage
+                  thumbnail-url="aircam-tv.png"
                 />
               </Starport>
             </div>
