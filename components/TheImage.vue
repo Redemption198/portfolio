@@ -12,8 +12,8 @@ const config = useRuntimeConfig();
     class="h-full w-full overflow-hidden rounded-xl transition-all duration-200"
   >
     <img
-      :src="config.app.baseURL + thumbnailUrl"
-      class="aspect-video h-full w-full object-fill"
+      :src="$config.app.baseURL + thumbnailUrl"
+      class="aspect-video h-full w-full object-cover"
       :alt="thumbnailTitle"
     />
   </div>
