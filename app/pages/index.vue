@@ -76,7 +76,7 @@ const { data } = await useAsyncData("index", () => {
               port="/projects/redazione-ai"
               class="h-52 w-96 transition-all duration-75"
             >
-              <TheImage thumbnail-url="aircam.png" />
+              <TheImage thumbnail-url="redazione-ai/redazione-thumb.png" />
             </Starport>
           </div>
         </NuxtLink>
