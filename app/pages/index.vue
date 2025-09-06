@@ -68,6 +68,19 @@ const { data } = await useAsyncData("index", () => {
           </div>
         </NuxtLink>
 
+        <NuxtLink to="/projects/redazione-ai">
+          <div
+            class="relative flex items-center justify-center overflow-hidden rounded-2xl transition-transform hover:scale-105 active:scale-95"
+          >
+            <Starport
+              port="/projects/redazione-ai"
+              class="h-52 w-96 transition-all duration-75"
+            >
+              <TheImage thumbnail-url="aircam.png" />
+            </Starport>
+          </div>
+        </NuxtLink>
+
         <NuxtLink to="/projects/aircam">
           <div
             class="relative flex items-center justify-center overflow-hidden rounded-2xl transition-transform hover:scale-105 active:scale-95"
