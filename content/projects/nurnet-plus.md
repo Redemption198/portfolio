@@ -4,40 +4,37 @@ description: An unofficial client for browsing NurNet data
 thumbnail_url: "nurnet-large.png"
 repository_url: https://github.com/Redemption198/nurnet-plus
 demo_url: https://redemption198.github.io/nurnet-plus
+hasPage: true
 builtWithLibs:
   [
+    { name: "Nuxt", site: "https://v3.nuxtjs.org/", logo: "logos:nuxt-icon" },
+    { name: "VueUse", site: "https://vueuse.org/", logo: "logos:vueuse" },
     {
-      name: "Nuxt",
-      site: "https://v3.nuxtjs.org/",
-      logo: "https://nuxtjs.org/design-kit/white-text.svg",
+      name: "VueUse Motion",
+      site: "https://motion.vueuse.org/",
+      logo: "logos:vueuse",
     },
     {
-      name: "VueUse",
-      site: "https://vueuse.org/",
-      logo: "https://d33wubrfki0l68.cloudfront.net/2f6479d73bc25170dc532dd42e059166573bf478/61057/favicon.svg",
+      name: "VueUse Gesture",
+      site: "https://gesture.vueuse.org/",
+      logo: "logos:vueuse",
     },
-    { name: "VueUse Motion", site: "https://motion.vueuse.org/", logo: "" },
-    { name: "VueUse Gesture", site: "https://gesture.vueuse.org/", logo: "" },
     {
       name: "Vite PWA",
       site: "https://github.com/vite-pwa/vite-plugin-pwa",
-      logo: "https://avatars.githubusercontent.com/u/112536770?s=200&v=4",
+      logo: "logos:vitejs",
     },
     {
       name: "Tailwind CSS",
       site: "https://tailwindcss.com/",
-      logo: "https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg",
+      logo: "logos:tailwindcss-icon",
     },
     {
       name: "Openlayers",
       site: "https://openlayers.org/",
-      logo: "https://openlayers.org/theme/img/logo-dark.svg",
+      logo: "logos:openlayers",
     },
-    {
-      name: "Fuse.js",
-      site: "https://fusejs.io/",
-      logo: "https://fusejs.io/assets/img/logo.png",
-    },
+    { name: "Fuse.js", site: "https://fusejs.io/", logo: "" },
   ]
 ---
 
