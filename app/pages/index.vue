@@ -12,9 +12,7 @@ const { data } = await useAsyncData("index", () => {
   <div class="w-full min-h-screen bg-gray-200 flex flex-col">
     <Hero />
 
-
-
-    <div class="flex flex-col gap-4 mx-12 pb-8">
+    <div class="flex flex-col gap-4 mx-4 sm:mx-12 pb-8">
       <p class="font-black text-2xl">Projects and stuff</p>
 
       <div class="flex flex-col gap-8">
