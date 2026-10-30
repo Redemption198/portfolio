@@ -16,11 +16,7 @@ extraLinks:
       url: "https://github.com/nuxt-modules/device/pull/119",
       icon: "simple-icons:github",
     },
-    {
-      text: "Nuxt Modules Page",
-      url: "https://nuxt.com/modules/device",
-      icon: "logos:nuxt-icon",
-    },
+    { text: "Nuxt Modules Page", url: "https://nuxt.com/modules/device", icon: "logos:nuxt-icon" },
   ]
 ---
 

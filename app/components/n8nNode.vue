@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex flex-col items-center gap-2 text-gray-400 transition cursor-pointer w-fit"
-  >
+  <div class="flex flex-col items-center gap-2 text-gray-400 transition cursor-pointer w-fit">
     <div class="relative">
       <div
         class="w-20 h-20 border-gray-500 border-2 bg-gray-100 text-gray-400 rounded-lg flex items-center justify-center isolate relative"
@@ -22,16 +20,10 @@
           <Icon name="ph:arrows-clockwise-bold" class="animate-spin" />
         </div>
 
-        <div
-          v-else-if="success"
-          class="absolute right-1 bottom-1 flex items-center justify-center"
-        >
+        <div v-else-if="success" class="absolute right-1 bottom-1 flex items-center justify-center">
           <Icon name="material-symbols:check-rounded" class="text-green-500" />
         </div>
-        <div
-          v-else-if="error"
-          class="absolute right-1 bottom-1 flex items-center justify-center"
-        >
+        <div v-else-if="error" class="absolute right-1 bottom-1 flex items-center justify-center">
           <Icon name="tabler:circle-x-filled" class="text-red-500" />
         </div>
       </div>

@@ -12,7 +12,7 @@ const handleCardClick = (project: any) => {
 
 <template>
   <div
-    class="p-4 rounded-3xl bg-slate-100 flex flex-col md:flex-row gap-6 shadow-sm transition-transform"
+    class="p-4 rounded-3xl bg-surface flex flex-col md:flex-row gap-6 shadow-sm transition-transform"
     :class="{
       'hover:scale-[1.02] hover:shadow-md cursor-pointer': project.meta.hasPage,
     }"
@@ -34,8 +34,8 @@ const handleCardClick = (project: any) => {
 
     <div class="flex flex-col gap-3 py-2">
       <div class="flex flex-col">
-        <p class="font-bold text-2xl text-slate-800">{{ project.title }}</p>
-        <p class="font-semibold text-lg text-slate-600">
+        <p class="font-bold text-2xl text-ink">{{ project.title }}</p>
+        <p class="font-semibold text-lg text-ink-muted">
           {{ project.description }}
         </p>
       </div>
@@ -47,31 +47,29 @@ const handleCardClick = (project: any) => {
           :to="lib.site"
           target="_blank"
           external
-          class="transition-transform hover:scale-105 active:scale-95 bg-slate-200 rounded-full px-3 py-1 flex items-center gap-2"
+          class="transition-transform hover:scale-105 active:scale-95 bg-chip rounded-full px-3 py-1 flex items-center gap-2"
           @click.stop
         >
           <div v-if="lib.logo" class="flex items-center justify-center">
             <Icon :name="lib.logo" class="text-sm" />
           </div>
-          <p
-            class="text-center text-sm font-bold text-slate-800 whitespace-nowrap"
-          >
+          <p class="text-center text-sm font-bold text-ink whitespace-nowrap">
             {{ lib.name }}
           </p>
         </NuxtLink>
       </div>
 
-      <div class="flex items-center gap-3 mt-auto">
+      <div class="flex flex-wrap items-center gap-3 mt-auto">
         <NuxtLink
           v-if="project.meta.repository_url"
           :to="project.meta.repository_url"
           target="_blank"
           external
-          class="flex items-center gap-2 px-4 py-2 bg-slate-200 rounded-xl transition-transform hover:scale-105 active:scale-95 hover:bg-slate-300"
+          class="flex items-center gap-2 px-4 py-2 bg-chip rounded-xl transition-transform hover:scale-105 active:scale-95 hover:bg-chip-hover"
           @click.stop
         >
-          <Icon name="simple-icons:github" class="text-lg text-slate-800" />
-          <span class="text-sm font-bold text-slate-800">Source</span>
+          <Icon name="simple-icons:github" class="text-lg text-ink" />
+          <span class="text-sm font-bold text-ink">Source</span>
         </NuxtLink>
 
         <NuxtLink
@@ -92,15 +90,15 @@ const handleCardClick = (project: any) => {
           :to="link.url"
           target="_blank"
           external
-          class="flex items-center gap-2 px-4 py-2 bg-slate-200 rounded-xl transition-transform hover:scale-105 active:scale-95 hover:bg-slate-300"
+          class="flex items-center gap-2 px-4 py-2 bg-chip rounded-xl transition-transform hover:scale-105 active:scale-95 hover:bg-chip-hover"
           @click.stop
         >
           <Icon v-if="link.icon" :name="link.icon" class="text-lg" />
-          <span class="text-sm font-bold text-slate-800">{{ link.text }}</span>
+          <span class="text-sm font-bold text-ink">{{ link.text }}</span>
         </NuxtLink>
       </div>
 
-      <ContentRenderer :value="project.body" class="text-slate-600" />
+      <ContentRenderer :value="project.body" class="text-ink-muted" />
     </div>
   </div>
 </template>

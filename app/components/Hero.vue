@@ -1,22 +1,18 @@
 <template>
-  <div class="w-full min-h-[75dvh] flex items-center justify-center py-12">
+  <div class="w-full min-h-[75dvh] flex items-center justify-center pt-20 pb-12 md:py-12">
     <div
       class="grid grid-cols-2 md:grid-cols-6 gap-4 w-full max-w-7xl px-4 auto-rows-[100px] md:auto-rows-[120px]"
     >
       <!-- Profile Card (Centered) -->
       <div
-        class="col-span-2 row-span-2 md:col-span-4 md:col-start-2 md:row-start-2 z-10 flex flex-col items-center justify-center gap-y-3 bg-slate-100 p-4 rounded-3xl shadow-sm"
+        class="col-span-2 row-span-2 md:col-span-4 md:col-start-2 md:row-start-2 z-10 flex flex-col items-center justify-center gap-y-3 bg-surface p-4 rounded-3xl shadow-sm"
         :class="{ 'animated-box': shouldAnimate }"
         style="animation-delay: 0ms"
       >
-        <p class="text-3xl font-semibold text-slate-600 md:text-4xl">
-          Jacopo Pinna
-        </p>
-        <p class="text-2xl font-semibold text-slate-600 md:text-3xl">
-          Developer
-        </p>
+        <p class="text-3xl font-semibold text-ink-muted md:text-4xl">Jacopo Pinna</p>
+        <p class="text-2xl font-semibold text-ink-muted md:text-3xl">Developer</p>
 
-        <div class="flex items-center justify-center gap-x-4 text-slate-600 mt-2">
+        <div class="flex items-center justify-center gap-x-4 text-ink-muted mt-2">
           <NuxtLink
             to="https://www.linkedin.com/in/jacopo-pinna"
             external
@@ -49,18 +45,12 @@
       <div
         v-for="(lib, index) in libraries"
         :key="lib.name"
-        class="col-span-1 row-span-1 bg-slate-100 rounded-3xl flex flex-col items-center justify-center gap-2 shadow-sm transition-transform hover:scale-105 hover:shadow-md cursor-default"
+        class="col-span-1 row-span-1 bg-surface rounded-3xl flex flex-col items-center justify-center gap-2 shadow-sm transition-transform hover:scale-105 hover:shadow-md cursor-default"
         :class="{ 'animated-box': shouldAnimate }"
         :style="{ animationDelay: `${(index + 1) * 50}ms` }"
       >
-        <Icon
-          :name="lib.logo"
-          class="text-4xl md:text-5xl"
-          :style="{ color: lib.color }"
-        />
-        <span class="font-bold text-sm md:text-lg text-slate-700">{{
-          lib.name
-        }}</span>
+        <Icon :name="lib.logo" class="text-4xl md:text-5xl" :style="{ color: lib.color }" />
+        <span class="font-bold text-sm md:text-lg text-ink-soft">{{ lib.name }}</span>
       </div>
     </div>
   </div>

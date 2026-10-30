@@ -1,6 +1,67 @@
 @import "tailwindcss";
 @source "../../../content/**/*.md";
 
+/* Semantic colors; data-theme is set before paint by the script in nuxt.config.ts */
+:root {
+  color-scheme: light;
+  --canvas: var(--color-gray-200);
+  --surface: var(--color-slate-100);
+  --chip: var(--color-slate-200);
+  --chip-hover: var(--color-slate-300);
+  --ink: var(--color-slate-800);
+  --ink-soft: var(--color-slate-700);
+  --ink-muted: var(--color-slate-600);
+  --ink-subtle: var(--color-slate-500);
+  --link: var(--color-blue-600);
+  --note: var(--color-blue-50);
+  --note-border: var(--color-blue-100);
+  --note-ink: var(--color-blue-800);
+}
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas: var(--color-slate-950);
+  --surface: var(--color-slate-900);
+  --chip: var(--color-slate-800);
+  --chip-hover: var(--color-slate-700);
+  --ink: var(--color-slate-100);
+  --ink-soft: var(--color-slate-200);
+  --ink-muted: var(--color-slate-400);
+  --ink-subtle: var(--color-slate-500);
+  --link: var(--color-blue-400);
+  --note: color-mix(in oklab, var(--color-blue-500) 12%, transparent);
+  --note-border: color-mix(in oklab, var(--color-blue-400) 25%, transparent);
+  --note-ink: var(--color-blue-300);
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-chip: var(--chip);
+  --color-chip-hover: var(--chip-hover);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-subtle: var(--ink-subtle);
+  --color-link: var(--link);
+  --color-note: var(--note);
+  --color-note-border: var(--note-border);
+  --color-note-ink: var(--note-ink);
+}
+
+@layer base {
+  body {
+    background-color: var(--canvas);
+  }
+
+  /* Black logos that disappear on dark surfaces */
+  [data-theme="dark"] .i-logos\:threejs {
+    filter: invert(1);
+  }
+}
+
 @layer utilities {
   /* Hide scrollbar for Chrome, Safari and Opera */
   .scrollbar-hidden::-webkit-scrollbar {

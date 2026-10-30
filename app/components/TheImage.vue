@@ -11,9 +11,7 @@ const config = useRuntimeConfig();
 </script>
 
 <template>
-  <div
-    class="h-full w-full overflow-hidden rounded-xl transition-all duration-200"
-  >
+  <div class="h-full w-full overflow-hidden rounded-xl transition-all duration-200">
     <NuxtImg
       v-if="thumbnailUrl"
       :src="thumbnailUrl"
@@ -28,9 +26,7 @@ const config = useRuntimeConfig();
       :class="cssBackground"
     >
       <Icon v-if="cssIcon" :name="cssIcon" class="text-4xl text-white" />
-      <span v-if="cssText" class="text-2xl font-bold text-white">{{
-        cssText
-      }}</span>
+      <span v-if="cssText" class="text-2xl font-bold text-white">{{ cssText }}</span>
     </div>
   </div>
 </template>

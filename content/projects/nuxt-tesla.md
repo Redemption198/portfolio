@@ -10,11 +10,7 @@ builtWithLibs:
   [
     { name: "Nuxt", site: "https://v3.nuxtjs.org/", logo: "logos:nuxt-icon" },
     { name: "VueUse", site: "https://vueuse.org/", logo: "logos:vueuse" },
-    {
-      name: "Tailwind CSS",
-      site: "https://tailwindcss.com/",
-      logo: "logos:tailwindcss-icon",
-    },
+    { name: "Tailwind CSS", site: "https://tailwindcss.com/", logo: "logos:tailwindcss-icon" },
   ]
 ---
 

@@ -1,4 +1,4 @@
-import { defineCollection, defineContentConfig, z } from "@nuxt/content";
+import { defineCollection, defineContentConfig } from "@nuxt/content";
 
 export default defineContentConfig({
   collections: {

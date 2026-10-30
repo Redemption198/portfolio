@@ -10,11 +10,7 @@ builtWithLibs:
     { name: "Nuxt 3", site: "https://v3.nuxtjs.org/", logo: "logos:nuxt-icon" },
     { name: "VueUse", site: "https://vueuse.org/", logo: "logos:vueuse" },
     { name: "Strapi", site: "https://strapi.io/", logo: "logos:strapi-icon" },
-    {
-      name: "Tailwind CSS",
-      site: "https://tailwindcss.com/",
-      logo: "logos:tailwindcss-icon",
-    },
+    { name: "Tailwind CSS", site: "https://tailwindcss.com/", logo: "logos:tailwindcss-icon" },
     { name: "Leaflet", site: "https://leafletjs.com/", logo: "logos:leaflet" },
     { name: "ThreeJS", site: "https://threejs.org/", logo: "logos:threejs" },
   ]

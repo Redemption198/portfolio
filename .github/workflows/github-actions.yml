@@ -21,10 +21,14 @@ jobs:
           echo NUXT_APP_BASE_URL=${{ env.BASE_URL }} > .env
           cat .env
 
-      - name: Install and Build 🔧
-        run: |
-          yarn install
-          yarn generate
+      - name: Setup Vite+ 📦
+        uses: voidzero-dev/setup-vp@v1.22.0
+        with:
+          node-version: "24"
+          cache: true
+
+      - name: Build 🔧
+        run: vp run generate
 
       - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
@@ -34,6 +38,3 @@ jobs:
           repository-name: Redemption198/Redemption198.github.io
           branch: main
           target-folder: ${{ env.BASE_URL }}
-      
- 
-      
