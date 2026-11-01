@@ -9,8 +9,7 @@ builtWithLibs:
   [
     { name: "Nuxt", site: "https://v3.nuxtjs.org/", logo: "logos:nuxt-icon" },
     { name: "VueUse", site: "https://vueuse.org/", logo: "logos:vueuse" },
-    { name: "VueUse Motion", site: "https://motion.vueuse.org/", logo: "logos:vueuse" },
-    { name: "VueUse Gesture", site: "https://gesture.vueuse.org/", logo: "logos:vueuse" },
+    { name: "GSAP", site: "https://gsap.com/", logo: "simple-icons:gsap" },
     { name: "Vite PWA", site: "https://github.com/vite-pwa/vite-plugin-pwa", logo: "logos:vitejs" },
     { name: "Tailwind CSS", site: "https://tailwindcss.com/", logo: "logos:tailwindcss-icon" },
     { name: "Openlayers", site: "https://openlayers.org/", logo: "logos:openlayers" },
